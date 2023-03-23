@@ -81,7 +81,7 @@ function Csm_redirect()
             /* set redirect true */
         }
     }
-    if ($redirect) {
+    if ($redirectt) {
         /* if redirect = true => then redirect */
         wp_redirect(esc_url(get_page_link($redirect_page_id)));
         
